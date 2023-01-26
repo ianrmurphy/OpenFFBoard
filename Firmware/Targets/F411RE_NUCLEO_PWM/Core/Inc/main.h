@@ -79,8 +79,12 @@ void RebootDFU();
 #define ADC_VEXT_GPIO_Port GPIOA
 #define ADC_VINT_Pin GPIO_PIN_3
 #define ADC_VINT_GPIO_Port GPIOA
-#define SPI1_SS1_Pin GPIO_PIN_4
-#define SPI1_SS1_GPIO_Port GPIOA
+#define D3_INH_2_Pin GPIO_PIN_5
+#define D3_INH_2_GPIO_Port GPIOA
+#define D12_INH_1_Pin GPIO_PIN_6
+#define D12_INH_1_GPIO_Port GPIOA
+#define D11_IN_2_Pin GPIO_PIN_7
+#define D11_IN_2_GPIO_Port GPIOA
 #define DRV_ENABLE_Pin GPIO_PIN_4
 #define DRV_ENABLE_GPIO_Port GPIOC
 #define FLAG_Pin GPIO_PIN_5
@@ -88,13 +92,9 @@ void RebootDFU();
 #define FLAG_EXTI_IRQn EXTI9_5_IRQn
 #define DRV_BRAKE_Pin GPIO_PIN_0
 #define DRV_BRAKE_GPIO_Port GPIOB
-#define SPI1_SS2_Pin GPIO_PIN_1
-#define SPI1_SS2_GPIO_Port GPIOB
 #define BUTTON_A_Pin GPIO_PIN_2
 #define BUTTON_A_GPIO_Port GPIOB
 #define BUTTON_A_EXTI_IRQn EXTI2_IRQn
-#define SPI1_SS3_Pin GPIO_PIN_10
-#define SPI1_SS3_GPIO_Port GPIOB
 #define SPI2_NSS_Pin GPIO_PIN_12
 #define SPI2_NSS_GPIO_Port GPIOB
 #define ENCODER_A_Pin GPIO_PIN_6
@@ -122,6 +122,8 @@ void RebootDFU();
 #define LED_CLIP_GPIO_Port GPIOC
 #define LED_ERR_Pin GPIO_PIN_2
 #define LED_ERR_GPIO_Port GPIOD
+#define D3_IN_1_Pin GPIO_PIN_3
+#define D3_IN_1_GPIO_Port GPIOB
 #define DIN7_Pin GPIO_PIN_4
 #define DIN7_GPIO_Port GPIOB
 #define LED_SYS_Pin GPIO_PIN_5
